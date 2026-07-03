@@ -1,0 +1,12 @@
+{
+  "id": "your_kaggle_username/hdd-full-training-experiment",
+  "title": "HDD Full Training Experiment",
+  "code_file": "train_kernel.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": [],
+  "competition_sources": []
+}

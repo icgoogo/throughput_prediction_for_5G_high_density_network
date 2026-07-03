@@ -1,0 +1,19 @@
+# Optional config placeholder. The Python dataclasses in src/hdd_pipeline/config.py
+# currently provide defaults. Use this as a human-readable experiment record.
+dataset:
+  input_root: /kaggle/input/datasets/hammadsyarif/l5ghdd-ds
+  working_dir: /kaggle/working
+  max_user_id: 11999
+  chunk_size: 500
+rf:
+  sample_n_s1: 800000
+  sample_n_s2: 500000
+  full_safe_n_estimators: 30
+  full_safe_max_depth: 12
+  full_safe_max_leaf_nodes: 2048
+  full_safe_min_samples_leaf: 200
+  full_safe_n_jobs: 1
+split:
+  test_id_start: 10000
+  val_frac: 0.20
+  is_undersampling: false
